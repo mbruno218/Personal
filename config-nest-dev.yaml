@@ -1,0 +1,23 @@
+version: 1.2.4
+
+cache: true
+
+registration:
+  socialLogins:
+    - "discord"
+    - "facebook"
+    - "github"
+    - "google"
+    - "openid"
+
+endpoints:
+  custom:
+    - name: nest-rag
+      type: openai
+      #baseURL: http://host.docker.internal:3001/v1
+      baseURL: https://mi-nest-api-production.up.railway.app/v1
+      apiKey: dev-key
+      models:
+        default: [rag-nest]
+      headers:
+        x-api-key: c26d542f33b9624297453fbde2f62a2585324dc3cdf81b867a46c4fb2e020c7dd

@@ -15,7 +15,8 @@ endpoints:
     - name: nest-rag
       type: openai
       #baseURL: http://host.docker.internal:3001/v1
-      baseURL: https://mi-nest-api-production.up.railway.app/v1
+      #baseURL: https://mi-nest-api-production.up.railway.app/v1
+      baseURL: http://perfect-energy.railway.internal/v1
       apiKey: dev-key
       models:
         default: [rag-nest]

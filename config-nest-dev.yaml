@@ -26,4 +26,4 @@ endpoints:
       models:
         default: [rag-nest]
       headers:
-        x-api-key: c26d542f33b9624297453fbde2f62a2585324dc3cdf81b867a46c4fb2e020c7dd
+        x-api-key: c26d542f33b9624297453fbde2f62a2585324dc3cdf81b867a46c4fb2e020c7d

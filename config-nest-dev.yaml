@@ -14,13 +14,10 @@ endpoints:
   custom:
     - name: nest-rag
       type: openai
-      #baseURL: http://host.docker.internal:3001/v1
-      #baseURL: https://mi-nest-api-production.up.railway.app/v1
       #baseURL: http://mi-nest-api-dev.railway.internal:3000/v1
-      #baseURL: http://mi-nest-api-dev.railway.internal/v1
+      baseURL: http://mi-nest-api-dev.railway.internal/v1
       #baseURL: http://mi-nest-api-dev/v1
-      baseURL: https://mi-nest-api-dev-development.up.railway.app/v1
-
+      #baseURL: https://mi-nest-api-dev-development.up.railway.app/v1
       #baseUrl: http://mi-nest-api-dev:3000/v1
       apiKey: dev-key
       models:
